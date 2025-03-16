@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #1abeb1dc;
+    --color-secondary: #3d4b9e;
+    --color-tertiary: #ac8f8f;
+    --color-button: #2112acb9;
+    --color-button-hover: #831c1c;
+    --color-text: #6e6a6a;
+    --color-white: #30ad83;
 }
 
 /* Estilos generales */
@@ -54,15 +54,15 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -77,6 +77,7 @@ body {
     width: 100%;
     max-width: 600px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .input-name {
